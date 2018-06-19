@@ -1,0 +1,41 @@
+ body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  background: #000000;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+ }
+
+#colorwheel {
+  margin: 20px auto;
+  position: relative;
+  width: 640px;
+  height: 640px;
+}
+
+span {
+  cursor: pointer;
+  position: absolute;
+  top: 310px;
+  left: 420px;
+  width: 200px;
+  height: 20px;
+  -ms-transform-origin: -100px 50%;
+  -webkit-transform-origin: -100px 50%;
+  -moz-transform-origin: -100px 50%;
+  -o-transform-origin: -100px 50%;
+  transform-origin: -100px 50%;
+  opacity: 0.3;
+}
+
+span:hover, span:active {
+  opacity: 28;
+  border-top-right-radius: 100%;
+  border-bottom-right-radius: 100%;
+}
+
+
+
+
